@@ -1,21 +1,21 @@
 import { Container, Text, VStack, Heading, Box, Image } from "@chakra-ui/react";
 
-const Index = () => {
+const AudioQuality = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
         <Heading as="h1" size="2xl" textAlign="center">
-          Camthis
+          Great Audio Quality
         </Heading>
         <Text fontSize="xl" textAlign="center">
-          Easily stream live events from multiple angles
+          Experience superior audio quality for your live streams.
         </Text>
         <Box boxSize="sm">
-          <Image src="/images/landing.jpg" alt="Live streaming" />
+          <Image src="/images/audio-quality.jpg" alt="Great audio quality" />
         </Box>
       </VStack>
     </Container>
   );
 };
 
-export default Index;
+export default AudioQuality;
