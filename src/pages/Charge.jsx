@@ -1,21 +1,21 @@
 import { Container, Text, VStack, Heading, Box, Image } from "@chakra-ui/react";
 
-const Index = () => {
+const Charge = () => {
   return (
     <Container centerContent maxW="container.md" height="100vh" display="flex" flexDirection="column" justifyContent="center" alignItems="center">
       <VStack spacing={4}>
         <Heading as="h1" size="2xl" textAlign="center">
-          Camthis
+          Easy to Charge
         </Heading>
         <Text fontSize="xl" textAlign="center">
-          Easily stream live events from multiple angles
+          Seamlessly charge your audience when you want.
         </Text>
         <Box boxSize="sm">
-          <Image src="/images/landing.jpg" alt="Live streaming" />
+          <Image src="/images/charge.jpg" alt="Easy to charge" />
         </Box>
       </VStack>
     </Container>
   );
 };
 
-export default Index;
+export default Charge;
